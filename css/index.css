@@ -6,6 +6,7 @@ h1 {
     border: 5px solid orange;
     border-radius: 9px;
     background-color: aqua;
+    text-decoration: underline;
 }
 
 .ul {
@@ -14,7 +15,7 @@ h1 {
     display:flex;
     border: 5px solid olivedrab;
     border-radius: 9px;
-    margin: 1px;
+    margin: .1px;
     background-color: bisque;
 }
 
@@ -23,4 +24,17 @@ li {
     margin: 0px;
     padding: 20px;
     font-size: 120%;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: blue;
+    border: 2px solid gold;
+    background-color: greenyellow;
+    font-weight: bold;
+    text-decoration: underline;
 }
