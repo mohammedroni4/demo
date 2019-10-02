@@ -1,3 +1,10 @@
+body {
+    background-image: url("../images/emoji.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 h1 {
     margin: 0px;
     padding: 0px;
