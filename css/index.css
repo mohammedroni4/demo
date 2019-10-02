@@ -69,6 +69,12 @@ a:active {
     color: cornflowerblue;
 }
 
+#demo {
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
 .footer {
     text-align: center;
     position: fixed;
