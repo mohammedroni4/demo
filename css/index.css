@@ -47,22 +47,9 @@ a:hover {
     right: 40px;
     border: 3px solid grey;
     border-radius: 5px;
+    cursor: pointer;
 }
-.pTags {
-    text-align: center;
-    position: relative;
-    top: 300px;
-    display: none;
-    overflow: hidden;
-}
-.buttonTags {
-    text-align: center;
-    width: 100%;
-    position: relative;
-    bottom: -310px;
-    background-color: #eee;
-    color: #444;
-}
+
 #footerText {
     position: fixed;
     left: 0;
