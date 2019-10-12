@@ -1,15 +1,9 @@
-const getContentUponClick=() => {
-    var acc = document.getElementsByClassName("buttonTags");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        var pTags = this.nextElementSibling;
-        if (pTags.style.display === "block") {
-            pTags.style.display = "none";
-        } else {
-            pTags.style.display = "block";
-        }
-      });
-    }
+const openSidePanel = () => {
+    var sideElemeent = 'sidePanel'
+    document.getElementById(sideElemeent).style.width = '150px';
+}
+
+const closeSidePanel = () => {
+    var sideElemeent = 'sidePanel'
+    document.getElementById(sideElemeent).style.width = '0px';
 }

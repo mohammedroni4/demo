@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../css/index.css">
     </head>
     <body>
-        <header class="navHeader">
+        <!-- <header class="navHeader">
             <ul id="navUl">
                 <li><a href="#Home" class="active">Home</a></li>
                 <li><a href="#Images">Images</a></li>
@@ -16,12 +16,24 @@
                 <input id="inputTextField" type="text" placeholder="Search here...">
                 <button type="searchButton" id="searchBarButton">Search</button>
             </ul>
-        </header>
+        </header> -->
+
+        <div id="divs">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSidePanel()">&times;</a>
+            <a>First Link</a>
+            <a>Second Link</a>
+            <a>Third Link</a>
+            <a>Fourth Link</a>            
+        </div>
+
         <div>
+            <span id="sidePanel" onclick="openSidePanel()">Open Side Panel</span>
+        </div>
+        <!-- <div>
             <footer>
                 <p id="footerText"> Developed By: Mohammed Roni</p>
             </footer>
-       </div>
+       </div> -->
         <script src="../javascript/index.js"></script>
     </body>
 </html>

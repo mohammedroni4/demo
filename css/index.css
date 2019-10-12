@@ -38,9 +38,17 @@ a:hover {
     border: 3px solid gray;
     border-radius: 5px;
     box-shadow: saddlebrown;
+} 
+
+sidePanel {
+    cursor: pointer;
 }
 
-#searchBarButton {
+#sidePanel:hover {
+    color: blueviolet;
+}
+
+/* #searchBarButton {
     position: fixed;
     top: 12px;
     bottom: 882px;
