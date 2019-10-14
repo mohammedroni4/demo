@@ -1,0 +1,47 @@
+.h1Tag {
+    text-align: center;
+    color: blueviolet;
+    background-color: burlywood;
+    margin: 0%;
+    padding: 5px;
+    position: fixed;
+    top: .2px;
+    left: 0px;
+    width: 100%;
+    text-decoration: underline;
+}
+
+.spanTag {
+    margin: 0%;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: underline;
+}
+
+.textfield {
+    padding: 5px;
+    position: fixed;
+    top: 8.5px;
+    right: 85px;
+    width: 10%;
+    border: 4px solid gray;
+    float: right;
+    border-radius: 10px;
+}
+
+.buttonTag {
+    float: right;
+    position: fixed;
+    right:28px;
+    margin: 0px;
+    top: 9.5px;
+    padding: 4px;
+    border: 4px solid gray;
+    border-radius: 10px;
+}
