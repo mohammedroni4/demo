@@ -74,7 +74,7 @@ body {
     left: 0;
     width: 150px;
     height: 100%;
-    background-color: lightseagreen;;
+    background-color: lightseagreen;
 }
 
 a {
@@ -88,8 +88,10 @@ a {
 a:hover {
     color: sienna;
     background-color: mistyrose;
-    width: 70%;
+    width: 62%;
     left: 0;
+    border: 2px solid sienna;
+    border-radius: 9px;
 }
 
 a:active {
