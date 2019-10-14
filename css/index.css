@@ -35,6 +35,10 @@
     border-radius: 10px;
 }
 
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+
 .buttonTag {
     float: right;
     position: fixed;
