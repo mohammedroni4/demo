@@ -1,112 +1,48 @@
 body {
-   background-color: lightgrey
+    background-color: whitesmoke;
 }
 
-#logoID {
-    margin: 0%;
-    padding: 0%;    
-    left: 40px;
-    top: 0%;
-    height: 45px;
-    width: 80px;
-    position: fixed;
-    z-index: 1;
-    cursor: pointer;
-    background-attachment: fixed;
-}
-
-.h1Tag {
-    text-align: center;
-    color: blueviolet;
-    margin: 0%;
-    padding: 5px;
-    position: fixed;
-    top: .2px;
-    left: 0px;
-    width: 100%;
-    text-decoration: underline;
-    background-color: white;
-} 
-
-.spanTag {
+h1 {
     margin: 0%;
     padding: 10px;
+    text-align: center;
+    color: darkblue;
+    background-color: thistle;
     width: 100%;
     position: fixed;
-    left: 0px;
-    bottom: 0px;
-    text-align: center;
-    background-color: cornflowerblue;
-    color: white;
-    text-decoration: underline;
+    top: 0%;
+    left: 0%;
 }
 
-.textfield {
-    padding: 5px;
-    position: fixed;
-    top: 8.5px;
-    right: 85px;
-    width: 10%;
-    border: 4px solid gray;
-    float: right;
-    border-radius: 10px;
-}
-
-::-webkit-input-placeholder {
-    text-align: center;
- }
-
-.buttonTag {
-    float: right;
-    position: fixed;
-    right:28px;
-    margin: 0px;
-    top: 9.5px;
-    padding: 4px;
-    border: 4px solid gray;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: fixed;
-    top:10px;
-    right: 305px;
-    border: 4px solid gray;
-    border-radius: 10px;
-}
-
-#selectValue {
-    font-size: 14.5px;
-    cursor: pointer;
-}
-
-.sideNavBar  {
-    position: fixed;
-    top: 45px;
-    left: 0;
-    width: 150px;
-    height: 100%;
-    background-color: lightseagreen;
-}
-
-a {
-    display: block;
-    padding: 10px 16px;
-    margin: 10px;
+#navBarLinks {
+    margin: 0%;
     position: relative;
-    top: 150px;
+    list-style-type: none;
+    float: right;
+    right: -10px;
 }
 
-.sideNavBar a:hover {
-    color: sienna;
-    background-color: mistyrose;
-    width: 62%;
-    left: 0;
-    border: 2px solid sienna;
-    border-radius: 9px;
+#navBarLinks li {
+    margin: 0%;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid honeydew;
+    margin-right: 15px;
+    border-color: indianred;
 }
 
-a:active {
-    color: mediumvioletred;
+#navBarLinks li:hover {
+    background-color: salmon
+}
+
+.footer {
+    margin: 0%;
+    padding: 15px;
+    width: 100%;
+    color:whitesmoke;
+    background-color: sandybrown;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
 }
